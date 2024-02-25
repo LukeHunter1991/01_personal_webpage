@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: bisque;
+}
+
+h1 {
+    display: inline;
+    font-size: 3rem;
+}
+
+nav {
+    display: inline;
+    padding: 15px;
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.5rem;
+    display: inline;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#header-spacer {
+    background-color: rgb(186, 221, 209);
+    padding: 20px;
+}
+
+main {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    float: right;
+}
+
+
+.work-hero img {
+    position: relative;
+    display: inline;
+    width: 100%;
+    background-color: royalblue;
+}
+.work-hero div {
+    display: inline;
+    position: absolute;
+    background-color: aqua;
+    color: aliceblue;
+    left: 215px;
+    bottom: 500px;
+}
+
+.work-container {
+    display: inline;
+    position: relative;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+main .work-item {
+    position: relative;
+    display: inline;
+}
+
+.work-item img {
+    width: 45%;
+    display: inline;
+    object-fit: cover;
+}
+
+.work-item div {
+    display: inline;
+    position: absolute;
+    background-color: aqua;
+    color: aliceblue;
+    left: 8px;
+    bottom: 55px;
+}
+
+.contact {
+    width: 100%;
+}
+
+.headings-side {
+    display: flex;
+    flex-flow: column nowrap;
+    float: left;
+    height: 100%;
+    align-items: flex-end;
+    width: 10%;
+}
+
+.headings-side {
+    margin: 50px 0;
+}
+
+.contact {
+    text-align: center;
+    margin: 50px;
+}
