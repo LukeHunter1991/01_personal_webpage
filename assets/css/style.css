@@ -46,13 +46,13 @@ li {
 
 p {
     text-align: left;
-    padding: 25px 0;
     color: rgb(108, 92, 153);
     font-weight: lighter;
+    margin: 2.5vw 0;
 }
 
 main {
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-flow: row wrap;
     float: right;
@@ -60,12 +60,16 @@ main {
     margin: auto;
 }
 
+.work-hero {
+    position: relative;
+}
+
 
 .work-hero img {
     max-width: 90.5%;
     border: solid 5px;
     margin: 20px 0 0 0;
-    position: relative;
+
 
 }
 .work-hero div {
@@ -73,14 +77,13 @@ main {
     position: absolute;
     background-color: rgb(108, 92, 153);
     color: aliceblue;
-    left: 277px;
-    bottom: 125px;
-    padding: 25px;
+    left: 4.5vw;
+    bottom: 15vw;
+    padding: 3vw;
 }
 
 .work-container {
     display: inline;
-    position: relative;
     flex-flow: row wrap;
     width: 100%;
 }
@@ -104,7 +107,7 @@ main .work-item {
     color: aliceblue;
     left: 8px;
     bottom: 125px;
-    padding: 25px;
+    padding: 3vh;
 }
 
 h3 {
@@ -130,37 +133,30 @@ h3 {
 }
 
 .headings-side {
-    width: 200px;
-    color: rgb(108, 92, 153)
+    width: 20%;
+    color: rgb(108, 92, 153);
 }
 
 .headings-side #side-1 {
     border-right: solid rgb(0, 12, 37) 5px;
-    padding-bottom: 50px;
-    margin: 25px 0;
-    padding-right: 10px;
+    padding-bottom: 3vw;
+    margin: 2vw 0 3vw;
+    padding-right: 1vw;
 }
 
 .headings-side #side-2 {
     border-right: solid rgb(0, 12, 37) 5px;
-    padding-bottom: 1282px;
-    margin-bottom: 60px;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding-bottom: 102vw;
+    margin-bottom: 2vw;
+    padding-right: 1vw;
 }
 
 .headings-side #side-3 {
     border-right: solid rgb(0, 12, 37) 5px;
-    padding-bottom: 25px;
-    margin-bottom: 50px;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding-right: 1vw;
+
 }
 
 h2 {
-    font-size: 1.5rem;
-}
-
-#spacer {
-    margin: 25px 0;
+    font-size: 2.5rem;
 }
